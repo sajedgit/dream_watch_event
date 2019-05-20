@@ -108,7 +108,7 @@
 				<nav class="collapse navbar-collapse clearfix" role="navigation">
 					<ul class="nav navbar-nav navbar-right">
 						
-	                    <li class="active"><a href="index.html">Home</a></li>
+	                    <li class="active"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 	                    <li><a href="#">Services</a></li>
 	                    <li><a href="#">Portfolio</a></li>
 	                    <li><a href="#">FAQ</a></li>

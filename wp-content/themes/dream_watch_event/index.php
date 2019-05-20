@@ -47,8 +47,8 @@
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
+      <script src="<?php bloginfo('template_url'); ?>/js/respond.min.js"></script>
     <![endif]-->
 	
 
@@ -119,7 +119,7 @@
 			<ul class="cd-hero-slider">
 				<li class="selected">
 					<div class="overlay2">
-						<img class="" src="images/slider/bg1.jpg" alt="slider">
+						<img class="" src="<?php bloginfo('template_url'); ?>/images/slider/bg1.jpg" alt="slider">
 					</div>
 					<div class="cd-full-width">
 						<h2>Need To Invent The Future!</h2>
@@ -130,7 +130,7 @@
 				</li>
 				<li>
 					<div class="overlay2">
-						<img class="" src="images/slider/bg2.jpg" alt="slider">
+						<img class="" src="<?php bloginfo('template_url'); ?>/images/slider/bg2.jpg" alt="slider">
 					</div>
 					<div class="cd-half-width">
 						<h2>How Big Can You Dream?</h2>
@@ -139,15 +139,15 @@
 					</div> <!-- .cd-half-width -->
 
 					<div class="cd-half-width cd-img-container">
-						<img src="images/slider/bg-thumb1.png" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/slider/bg-thumb1.png" alt="">
 					</div> <!-- .cd-half-width.cd-img-container -->
 				</li>
 				<li>
 					<div class="overlay2">
-						<img class="" src="images/slider/bg3.jpg" alt="slider">
+						<img class="" src="<?php bloginfo('template_url'); ?>/images/slider/bg3.jpg" alt="slider">
 					</div>
 					<div class="cd-half-width cd-img-container img-right">
-						<img src="images/slider/bg-thumb2.png" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/slider/bg-thumb2.png" alt="">
 					</div> <!-- .cd-half-width.cd-img-container -->
 					<div class="cd-half-width">
 						<h2>Your Challenge is Our Progress</h2>
@@ -255,11 +255,11 @@
 					<div class="col-sm-3 web-design isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio1.jpg" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio1.jpg" alt="">
 								<figcaption>
 									<h3>Startup Business</h3>
 									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>            
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>            
 								</figcaption>			
 							</figure>
 						</div>
@@ -268,11 +268,11 @@
 					<div class="col-sm-3 development isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio2.jpg" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio2.jpg" alt="">
 								<figcaption>
 									<h3>Easy to Lanunch</h3>
 									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>            
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>            
 								</figcaption>				
 							</figure>
 						</div>
@@ -281,11 +281,11 @@
 					<div class="col-sm-3 joomla isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio3.jpg" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio3.jpg" alt="">
 								<figcaption>
 									<h3>Your Business</h3>
 									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>            
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>            
 								</figcaption>				
 							</figure>
 						</div>
@@ -294,11 +294,11 @@
 					<div class="col-sm-3 wordpress isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio4.jpg" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio4.jpg" alt="">
 								<figcaption>
 									<h3>Prego Match</h3>
 									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg4.jpg"><i class="fa fa-search"></i></a>            
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio-bg4.jpg"><i class="fa fa-search"></i></a>            
 								</figcaption>					
 							</figure>
 						</div>
@@ -307,11 +307,11 @@
 					<div class="col-sm-3 joomla isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio5.jpg" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio5.jpg" alt="">
 								<figcaption>
 									<h3>Fashion Brand</h3>
 									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg5.jpg"><i class="fa fa-search"></i></a>            
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio-bg5.jpg"><i class="fa fa-search"></i></a>            
 								</figcaption>					
 							</figure>
 						</div>
@@ -320,11 +320,11 @@
 					<div class="col-sm-3 development isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio6.jpg" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio6.jpg" alt="">
 								<figcaption>
 									<h3>The Insidage</h3>
 									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>            
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>            
 								</figcaption>					
 							</figure>
 						</div>
@@ -333,11 +333,11 @@
 					<div class="col-sm-3 development isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio7.jpg" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio7.jpg" alt="">
 								<figcaption>
 									<h3>Light Carpet</h3>
 									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>            
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>            
 								</figcaption>					
 							</figure>
 						</div>
@@ -346,11 +346,11 @@
 					<div class="col-sm-3 development isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio8.jpg" alt="">
+								<img src="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio8.jpg" alt="">
 								<figcaption>
 									<h3>Amazing Keyboard</h3>
 									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>            
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>            
 								</figcaption>					
 							</figure>
 						</div>
@@ -418,7 +418,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team1.jpg" alt="">
+							<img src="<?php bloginfo('template_url'); ?>/images/team/team1.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
@@ -438,7 +438,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team2.jpg" alt="">
+							<img src="<?php bloginfo('template_url'); ?>/images/team/team2.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
@@ -458,7 +458,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team3.jpg" alt="">
+							<img src="<?php bloginfo('template_url'); ?>/images/team/team3.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
@@ -478,7 +478,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team animate wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team4.jpg" alt="">
+							<img src="<?php bloginfo('template_url'); ?>/images/team/team4.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
@@ -548,32 +548,32 @@
 
 					<div class="img-gallery">
 						<div class="img-container">
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/1.jpg">
-								<img src="images/gallery/1.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/1.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/1.jpg" alt="">
 							</a>
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/2.jpg">
-								<img src="images/gallery/2.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/2.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/2.jpg" alt="">
 							</a>
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/3.jpg">
-								<img src="images/gallery/3.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/3.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/3.jpg" alt="">
 							</a>
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/4.jpg">
-								<img src="images/gallery/4.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/4.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/4.jpg" alt="">
 							</a>
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/5.jpg">
-								<img src="images/gallery/5.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/5.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/5.jpg" alt="">
 							</a>
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-								<img src="images/gallery/6.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/6.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/6.jpg" alt="">
 							</a>
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-								<img src="images/gallery/7.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/6.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/7.jpg" alt="">
 							</a>
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-								<img src="images/gallery/8.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/6.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/8.jpg" alt="">
 							</a>
-							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-								<img src="images/gallery/9.jpg" alt="">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="<?php bloginfo('template_url'); ?>/images/gallery/6.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/images/gallery/9.jpg" alt="">
 							</a>
 						</div>
 					</div>
@@ -658,34 +658,34 @@
 	================================================== -->
 
 	<!-- initialize jQuery Library -->
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
 	<!-- Bootstrap jQuery -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 	<!-- Style Switcher -->
-	<script type="text/javascript" src="js/style-switcher.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/style-switcher.js"></script>
 	<!-- Owl Carousel -->
-	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/owl.carousel.js"></script>
 	<!-- PrettyPhoto -->
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.prettyPhoto.js"></script>
 	<!-- Bxslider -->
-	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
 	<!-- CD Hero slider -->
-	<script type="text/javascript" src="js/cd-hero.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/cd-hero.js"></script>
 	<!-- Isotope -->
-	<script type="text/javascript" src="js/isotope.js"></script>
-	<script type="text/javascript" src="js/ini.isotope.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/isotope.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/ini.isotope.js"></script>
 	<!-- Wow Animation -->
-	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/wow.min.js"></script>
 	<!-- SmoothScroll -->
-	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/smoothscroll.js"></script>
 	<!-- Eeasing -->
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.easing.1.3.js"></script>
 	<!-- Counter -->
-	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.counterup.min.js"></script>
 	<!-- Waypoints -->
-	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/waypoints.min.js"></script>
 	<!-- Template custom -->
-	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
 	</div><!-- Body inner end -->
 </body>
 </html>

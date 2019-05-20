@@ -24,26 +24,26 @@
 	================================================== -->
 	
 	<!-- Bootstrap -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
 	<!-- Template styles-->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
 	<!-- Responsive styles-->
-	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/responsive.css">
 	<!-- FontAwesome -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
 	<!-- Animation -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
 	<!-- Prettyphoto -->
-	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/prettyPhoto.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.carousel.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.theme.css">
 	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/flexslider.css">
 	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/cd-hero.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/cd-hero.css">
 	<!-- Style Swicther -->
-	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+	<link id="style-switch" href="<?php bloginfo('template_url'); ?>/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>

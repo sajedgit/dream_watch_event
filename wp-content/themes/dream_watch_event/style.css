@@ -1,0 +1,33 @@
+/*
+Theme Name: Biztrox
+Template URI: http://demo.themefisher.com/demos/?theme=biztrox
+Author: Md Sajed Ahmed Khan
+Author URI: http://sajedaiub.com/
+Theme Creator: Md Sajed Ahmed Khan
+Description: Biztrox give the smart solution for your business. A Quality Experience Team with 4 years experience.Biztrox give the smart solution for your business. A Quality Experience Team with 4 years experience.Biztrox give the smart solution for your business. A Quality Experience Team with 4 years experience.
+Version: 1.0
+Text Domain: biztrox
+
+*/
+
+.logo_big_text
+{
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+padding: 0px;
+margin: -4px;
+font-style: italic;
+font-family:  Geneva, sans-serif;
+}
+.logo_small_text
+{
+color:#fff;
+font-size:20px;
+font-weight:bold;
+font-style:italic;
+}
+.navbar-brand.navbar-bg
+{
+padding: 0px 44px 11px;
+}

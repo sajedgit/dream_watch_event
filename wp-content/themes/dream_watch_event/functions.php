@@ -122,3 +122,11 @@ add_action( 'widgets_init', 'biztrox_widgets_init' );
 	return ' <a class="read-more" style="font-size:14px;color:#f83d98;" href="'. get_permalink( get_the_ID() ) . '">' . __('...Read More', 'your-text-domain') . '</a>';
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+function special_nav_class($classes, $item){
+     if( in_array('current-menu-item', $classes) ){
+             $classes[] = 'active ';
+     }
+     return $classes;
+}

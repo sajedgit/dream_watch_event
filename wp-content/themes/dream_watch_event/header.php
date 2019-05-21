@@ -106,15 +106,31 @@
 				    </div>                   
 				</div><!--/ Logo end -->
 				<nav class="collapse navbar-collapse clearfix" role="navigation">
-					<ul class="nav navbar-nav navbar-right">
-						
-	                    <li class="active"><a href="<?php bloginfo('url'); ?>">Home</a></li>
-	                    <li><a href="#">Services</a></li>
-	                    <li><a href="#">Portfolio</a></li>
-	                    <li><a href="#">FAQ</a></li>
-            			<li><a href="#">Contact Us</a></li>
-                    </ul>
+								<!--
+								<ul class="nav navbar-nav navbar-right">
+									
+									<li class="active"><a href="<?php bloginfo('url'); ?>">Home</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Portfolio</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+								-->
+					<?php 
+
+					wp_nav_menu( array(
+						//'theme_location' => 'top-menu',
+						'container' => 'ul',
+						'menu_class'=> 'nav navbar-nav navbar-right'
+					 ) );
+					?>
+					
 				</nav><!--/ Navigation end -->
+
+				
+
+				
+				
 			</div><!--/ Row end -->
 		</div><!--/ Container end -->
 	</header><!--/ Header end -->
